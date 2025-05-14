@@ -1,16 +1,17 @@
 import math
 from scipy.stats import chi2
 
+# Función para generar números pseudoaleatorios con el método congruencial multiplicativo
 def metodo_congruencial_multiplicativo(semilla, a, m, cantidad):
     xi = semilla
     numeros = []
 
     print("\n🔁 Iteraciones del método congruencial multiplicativo:")
     for i in range(cantidad):
-        producto = a * xi
-        xi = producto % m
-        ri = xi / m
-        numeros.append(ri)
+        producto = a * xi              # Se multiplica xi por el multiplicador a
+        xi = producto % m              # Se aplica el módulo m
+        ri = xi / m                    # Se normaliza a [0, 1)
+        numeros.append(ri)            # Se guarda el número
 
         print(f"\nIteración {i+1}:")
         print(f"  xi anterior     = {xi}")
@@ -20,15 +21,15 @@ def metodo_congruencial_multiplicativo(semilla, a, m, cantidad):
 
     return numeros
 
+# Función para realizar la prueba de Chi-Cuadrado
 def prueba_chi_cuadrado(valores_normalizados):
     n = len(valores_normalizados)
-    k = math.ceil(math.log2(n) + 1)  # Regla de Sturges
-    fe = n / k
-    intervalos = [0] * k
+    k = math.ceil(math.log2(n) + 1)   # Regla de Sturges para determinar el número de intervalos
+    fe = n / k                        # Frecuencia esperada por intervalo
+    intervalos = [0] * k              # Contadores por intervalo
 
-    # Contar valores en cada intervalo
     for valor in valores_normalizados:
-        indice = min(int(valor * k), k - 1)
+        indice = min(int(valor * k), k - 1)  # Asegura que 1.0 no desborde
         intervalos[indice] += 1
 
     chi_cuadrado = sum((fo - fe) ** 2 / fe for fo in intervalos)
@@ -40,7 +41,7 @@ def prueba_chi_cuadrado(valores_normalizados):
     print(f"\nEstadístico Chi-Cuadrado = {chi_cuadrado:.4f}")
     return chi_cuadrado, k
 
-# Ingreso por consola
+# Programa principal
 print("🔢 Método Congruencial Multiplicativo")
 try:
     semilla = int(input("Ingrese la semilla (X0): "))
@@ -48,14 +49,14 @@ try:
     m = int(input("Ingrese el módulo (m): "))
     cantidad = int(input("Ingrese la cantidad de números a generar: "))
 
-    # Generar números pseudoaleatorios
+    # Generar los números
     resultado = metodo_congruencial_multiplicativo(semilla, a, m, cantidad)
 
     print("\n📈 Números normalizados generados:")
     for i, r in enumerate(resultado):
         print(f"  r{i+1} = {r:.4f}")
 
-    # Validación con Chi-Cuadrado
+    # Validar con Chi-Cuadrado
     chi, k = prueba_chi_cuadrado(resultado)
     alfa = 0.05
     valor_critico = chi2.ppf(1 - alfa, k - 1)

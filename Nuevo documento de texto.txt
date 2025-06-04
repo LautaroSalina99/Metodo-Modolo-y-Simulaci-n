@@ -1,0 +1,212 @@
+TEMA 1. Introducción
+
+⦁	Defina a qué se denomina simulación en términos generales
+
+En términos generales se denomina simulación a la imitación de un proceso o sistema, en el cual se genera una historia artificial para poder entender su funcionamiento y se realiza una observación sobre el mismo. Para obtener así datos acerca del sistema y poder tomar decisiones.
+
+⦁	¿Qué tipo de problemas está destinada a resolver la simulación? ¿Mediante qué los resuelve?
+
+La simulación está destinada a resolver sistemas complejos, casos en los que resultaría
+imposible o impráctico desarrollarlos directamente. Los resuelve mediante el uso de
+modelos.
+
+
+⦁	¿Qué emplea el método analítico en forma imprescindible?
+
+El método analítico emplea en forma imprescindible la modularización, es decir, la descomposición de las partes o elementos del problema para observar las causas y los efectos.
+
+⦁	¿Todos los problemas pueden o deben ser resueltos por el método de Simulación? Justifique su respuesta
+
+No, no todos los problemas pueden o deben ser resueltos por el método de simulación. El método de simulación es una técnica muy útil para la resolución de problemas complejos que implican la interacción de múltiples variables y factores, y para los cuales no es posible obtener una solución analítica o experimental. 
+El método de simulación es adecuado para problemas en los cuales se requiere entender y predecir el comportamiento dinámico de sistemas complejos en diferentes situaciones y condiciones.
+
+⦁	¿Dentro de qué ciencias se clasifica a la simulación?
+
+La simulación se clasifica como una rama importante de la ciencia de los modelos, o de
+la denominada administración de operaciones. Siendo una rama independiente y parte
+de la matemática aplicada.
+
+
+
+¿Qué logramos mediante la simulación de un sistema?
+
+La simulación de un sistema puede lograr varios objetivos importantes, entre ellos:
+⦁	Comprender mejor el comportamiento del sistema: La simulación puede ayudar a los usuarios a comprender mejor cómo funciona un sistema y cómo diferentes variables y factores pueden afectar su comportamiento. 
+⦁	Identificar problemas y áreas de mejora: La simulación puede ayudar a identificar problemas y cuellos de botella en un sistema, lo que permite a los usuarios tomar medidas para mejorar su rendimiento. 
+⦁	Diseñar y optimizar sistemas: Al simular diferentes escenarios y condiciones, se pueden identificar soluciones óptimas y tomar decisiones informadas sobre cómo diseñar o mejorar un sistema.
+⦁	Reducir los costos y los riesgos: La simulación puede ayudar a reducir los costos y los riesgos asociados con la implementación de nuevos sistemas o cambios en los sistemas existentes. 
+
+⦁	Mencione brevemente algunas aplicaciones de la Simulación
+
+La simulación tiene muchas aplicaciones en una amplia gama de campos. Algunas de las aplicaciones más comunes son:
+⦁	Industria manufacturera: La simulación se utiliza para optimizar los procesos de fabricación y mejorar la eficiencia en las líneas de producción. Así como para identificar cuellos de botella y mejorar la eficiencia.
+⦁	Transporte: La simulación se utiliza para modelar el tráfico en carreteras y vías férreas, y para optimizar los horarios y las rutas de los vehículos
+
+
+⦁	Identifique y describa brevemente las partes (etapas) o el proceso general de un Proyecto de simulación
+
+⦁	Definición del problema: En esta etapa, se identifica el problema o la situación que se quiere simular. Se determinan los objetivos y las metas del proyecto, se definen los parámetros y se establecen los criterios de éxito.
+⦁	Diseño del modelo: En esta etapa, se desarrolla el modelo de simulación. El modelo puede ser matemático, estadístico o basado en eventos discretos. Se identifican las variables relevantes y se establecen las relaciones entre ellas.
+⦁	Recopilación de datos: En esta etapa, se recopilan los datos necesarios para la simulación. Los datos pueden incluir información sobre el comportamiento de los sistemas, los tiempos de proceso, los costos y otros factores relevantes.
+⦁	Verificación y validación: En esta etapa, se verifica y valida el modelo de simulación. Se comprueba que el modelo funciona correctamente y que produce resultados precisos y confiables.
+⦁	Experimentación y análisis: En esta etapa, se realizan experimentos utilizando el modelo de simulación. Se analizan los resultados para identificar tendencias y patrones, y se evalúan las posibles soluciones al problema o situación que se está simulando.
+⦁	Interpretación y comunicación de resultados: En esta etapa, se interpretan los resultados de la simulación y se comunican a los interesados. Se puede preparar un informe detallado que incluya las conclusiones y las recomendaciones basadas en los resultados de la simulación.
+⦁	Implementación y seguimiento: En esta etapa, se implementan las soluciones recomendadas y se realiza un seguimiento para asegurarse de que se están logrando los resultados deseados. 
+
+9. Cuál de las Etapas de un estudio de Simulación considera crítica, o por la cual el estudio podría devolver resultados no confiables y por qué
+
+La etapa más crítica de un estudio de simulación es la validación, ya que es donde se comparan los resultados de la simulación con los datos reales para asegurar que el modelo es una representación precisa del sistema que se está simulando.
+
+⦁	Indique y describa los tipos de Simulación que podemos realizar
+⦁	Simulación discreta: En la simulación discreta, se modela el sistema a través de eventos discretos que ocurren en un momento específico en el tiempo. Cada evento puede tener un efecto en el estado del sistema, lo que puede desencadenar otros eventos. Por ejemplo, podría usarse para simular un proceso de producción en el que las piezas se ensamblan en una línea de producción.
+⦁	Simulación continua: En la simulación continua, se modela el sistema a través de ecuaciones matemáticas que describen cómo cambian las variables del sistema en el tiempo. Por ejemplo, podría usarse para simular el flujo de líquidos a través de una tubería.
+⦁	Simulación basada en agentes: En la simulación basada en agentes, se modela el sistema a través de la interacción de múltiples agentes, cada uno de los cuales tiene su propio comportamiento y reglas. Por ejemplo, podría utilizarse para simular la interacción de los conductores en una carretera.
+⦁	Simulación de eventos discretos: La simulación de eventos discretos es una técnica de simulación que modela el comportamiento de un sistema a través de eventos discretos que ocurren en un momento específico en el tiempo. Este tipo de simulación se utiliza a menudo en la simulación de sistemas complejos, como redes de transporte o sistemas de producción.
+⦁	Simulación de Monte Carlo: La simulación de Monte Carlo es una técnica de simulación que se utiliza para estimar la distribución de probabilidad de una variable o un conjunto de variables aleatorias. Se basa en la generación de múltiples muestras aleatorias del sistema para estimar la probabilidad de resultados específicos.
+⦁	Simulación híbrida: La simulación híbrida combina diferentes tipos de simulación, como la simulación continua y la simulación discreta, para modelar sistemas complejos que incluyen tanto eventos discretos como procesos continuos. Este tipo de simulación se utiliza a menudo en la simulación de sistemas de transporte y sistemas de producción.
+
+
+⦁	¿Cuál es la importancia de los modelos y Simulación en la Ingeniería?
+Los modelos y la simulación son herramientas fundamentales en la ingeniería, ya que permiten a los ingenieros entender, analizar, diseñar y optimizar sistemas complejos antes de construirlos o implementarlos en la realidad.
+
+
+
+TEMA 2. Sistemas y Modelos
+
+⦁	Defina a qué se denomina sistema.
+Se denomina sistema a un conjunto de partes interrelacionadas entre sí para cumplir un objetivo.
+
+⦁	¿Qué necesidades permite satisfacer el estudio de los sistemas?
+El estudio de los sistemas permite satisfacer el objetivo para el cual fue creado, desarrollando salidas en base a las entradas que se le brindó.
+
+⦁	Defina los términos entidad, atributo y actividad de un sistema. 
+Entidad: es un objeto o componente de interés en un sistema.
+Atributo: es una característica de una entidad.
+Actividad: es todo proceso que provoque cambios en el sistema.
+
+⦁	¿Qué es un modelo matemático?
+Un modelo matemático es una representación abstracta de un sistema o fenómeno del mundo real utilizando fórmulas y otros conceptos matemáticos. Los modelos matemáticos se utilizan para predecir el comportamiento de un sistema, entender cómo funciona o explorar diferentes escenarios.
+
+⦁	¿Qué tipos de modelos matemáticos existen?
+⦁	Modelos determinísticos: Estos modelos se basan en ecuaciones matemáticas precisas y se utilizan para predecir cómo un sistema evolucionará en el futuro.
+⦁	Modelos estocásticos: Estos modelos incluyen la aleatoriedad en su estructura y se utilizan para predecir el comportamiento de los sistemas que tienen una cierta cantidad de incertidumbre.
+⦁	Modelos de optimización: Estos modelos se utilizan para encontrar la mejor solución posible a un problema, dadas ciertas restricciones y objetivos.
+⦁	Modelos de simulación: Estos modelos se utilizan para simular el comportamiento de un sistema en el tiempo y pueden incluir múltiples variables y factores
+
+⦁	¿Qué es un modelo de simulación discreto?
+Un modelo de simulación discreto es un tipo de modelo matemático que simula el comportamiento de un sistema en el tiempo en el que los cambios en el estado del sistema ocurren en momentos discretos y bien definidos.
+
+⦁	¿Qué es la validación de un modelo de simulación?
+La validación de un modelo de simulación es un proceso importante que se realiza para garantizar que el modelo sea una representación precisa y confiable del sistema.
+La validación de un modelo de simulación implica comparar los resultados del modelo con los datos reales del sistema o fenómeno que se está modelando. Si los resultados del modelo se comparan bien con los datos reales, se considera que el modelo es válido y puede ser utilizado para realizar predicciones y tomar decisiones. 
+
+⦁	¿Qué es la optimización de un modelo?
+La optimización de un modelo se refiere al proceso de encontrar los valores de las variables del modelo que maximizan o minimizan una función, sujeta a un conjunto de restricciones objetivo.
+⦁	¿Qué es la sensibilidad de un modelo?
+La sensibilidad de un modelo se refiere a la capacidad del modelo para responder a cambios en las variables de entrada o parámetros del modelo y producir resultados diferentes.
+
+⦁	¿Qué es la incertidumbre en un modelo de simulación?
+La incertidumbre en un modelo de simulación se refiere a la falta de conocimiento preciso o exacto de los valores de las variables de entrada o parámetros del modelo, lo que lleva a una falta de precisión o exactitud en los resultados del modelo.
+
+⦁	Aquellas ACTIVIDADES que se realizan dentro de los límites del sistema, con la capacidad inherente de modificar el estado del mismo, reciben el nombre de:
+ENDÓGENAS
+
+⦁	Todos aquellos sistemas para los cuales no existe ningún tipo de interacción entre el mismo y su medio ambiente, reciben el nombre de:
+SISTEMAS CERRADOS
+
+⦁	Todas aquellas entidades que no pertenecen propiamente al sistema, pero que puedan tener, eventualmente, cierta influencia sobre el sistema, constituyen el:
+MEDIO AMBIENTE DEL SISTEMA
+
+⦁	Un determinado problema ¿puede poseer más de un modelo?
+Sí, un determinado problema puede tener más de un modelo. Es común que un problema tenga múltiples modelos posibles, cada uno con sus propias ventajas y limitaciones.
+
+⦁	¿Qué elementos deben mantener equilibrio en un modelo?
+En un modelo es importante que los elementos que lo componen mantienen cierto equilibrio para que la simulación sea válida y represente de manera fiel el comportamiento del sistema real.
+-Variables de entrada: Las variables de entrada del modelo deben estar equilibradas y ser consistentes con el sistema real que se está modelando. 
+-Funciones y relaciones matemáticas: Las funciones y relaciones matemáticas en el modelo deben estar equilibradas y ser coherentes con la realidad. 
+-Parámetros: Los parámetros utilizados en el modelo, como los coeficientes en las ecuaciones, deben estar equilibrados y ajustados adecuadamente para reflejar la realidad.
+-Condiciones iniciales: Las condiciones iniciales en el modelo deben ser realistas y estar en equilibrio para que la simulación sea válida.
+
+⦁	Defina los modelos matemáticos, y el tipo de variables y magnitudes que intervienen en los mismos.
+Un modelo matemático es una representación abstracta y simplificada de un sistema mediante el uso de ecuaciones, funciones y otros elementos matemáticos. El objetivo de un modelo matemático es capturar las relaciones entre las variables que intervienen en el sistema y predecir su comportamiento.
+En un modelo matemático, se pueden distinguir diferentes tipos de variables y magnitudes:
+
+⦁	Variables de entrada: son las variables que se utilizan para describir las condiciones iniciales o las entradas al sistema. 
+⦁	Variables de salida: son las variables que se utilizan para describir los resultados o salidas del sistema. 
+⦁	Variables intermedias: son las variables que se utilizan para describir el comportamiento del sistema entre las entradas y las salidas. Estas variables pueden ser de diferentes tipos, dependiendo del modelo. 
+⦁	Parámetros: son las constantes que intervienen en las ecuaciones o funciones del modelo y que afectan el comportamiento del sistema. Estos parámetros pueden ser estimados a partir de datos empíricos o pueden ser fijados por el usuario.
+⦁	Magnitudes: son las unidades físicas o conceptuales en las que se miden las variables del modelo. Estas magnitudes pueden ser de diferentes tipos, dependiendo del modelo. 
+
+⦁	Se denominan FÍSICOS a todos aquellos MODELOS que:
+Dan como resultado valores discretos de las variables que intervienen
+
+⦁	Todo modelo que consiste en una construcción idéntica en forma, dimensiones y materiales de lo que es el sistema real, recibe el nombre de:
+MODELO TIPO RÉPLICA
+
+⦁	En la jerga técnica, el MODELO TIPO SEMI REPLICA, recibe la denominación común de:
+MAQUETA
+
+⦁	Todos aquellos modelos que se formalizan por medio del lenguaje humano ordinario o natural, reciben el nombre de:
+MODELOS TIPOS DESCRIPTIVOS
+
+⦁	Todos aquellos modelos que están compuestos por relaciones o interacciones que varían a través del tiempo, se denominan
+MODELOS MATEMÁTICOS DINÁMICOS     
+
+⦁	Todos aquellos   modelos cuyas relaciones funcionales no contienen variables aleatorias, aún que, el sistema que aquel trata de describir las tuviera, reciben el nombre de:
+      MODELOS MATEMÁTICOS DETERMINISTAS     
+⦁	El principio de DESAGREGACIÓN DE PARTES del modelado:
+Describe el sistema como un todo en términos de las interconexiones entre bloques o subsistemas
+
+
+
+
+
+TEMA 3. SIMULACIÓN
+
+⦁	Explique las principales diferencias entre la simulación analógica, la simulación digital y la simulación híbrida.
+La simulación analógica, la simulación digital y la simulación híbrida son tres enfoques diferentes para modelar sistemas complejos. A continuación, se describen las principales diferencias entre estas tres formas de simulación:
+⦁	Simulación analógica: La simulación analógica es un enfoque que utiliza componentes físicos y eléctricos para representar un sistema. Este tipo de simulación es muy útil para sistemas que tienen variables continuas y no discretas. En la simulación analógica, los valores de las variables se representan por medio de señales analógicas continuas, como voltajes o corrientes eléctricas, que se modifican mediante el uso de componentes mecánicos, eléctricos o electrónicos.
+⦁	Simulación digital: La simulación digital es un enfoque que utiliza modelos matemáticos y computadoras para representar un sistema. En este enfoque, las variables del sistema se representan mediante números discretos y se utilizan algoritmos y programas de computadora para simular el comportamiento del sistema. 
+⦁	Simulación híbrida: La simulación híbrida es un enfoque que combina la simulación analógica y la simulación digital. En este enfoque, se utilizan componentes físicos para representar las partes contiguas del sistema y modelos matemáticos para representar las partes discretas del sistema. Por ejemplo, se puede utilizar una simulación analógica para representar el comportamiento de un motor y una simulación digital para representar el comportamiento de un sistema de control. La simulación híbrida es muy útil para sistemas que tienen partes tanto continuas como discretas y permite obtener una simulación muy precisa y detallada del sistema.
+
+⦁	La simulación digital puede ser clasificada teniendo en cuenta las ecuaciones o algoritmos que componen el correspondiente modelo matemático en:
+ESTOCÁSTICA. Cuando al menos una de las variables que intervienen en un modelo es de tipo aleatoria, se estará en presencia de una simulación estocástica.
+
+⦁	Cuando al menos una de las variables que intervienen en un modelo es de tipo determinista, se estará en presencia de una simulación determinista.
+FALSO. La simulación determinista se refiere a una técnica de simulación en la que todas las variables del modelo se definen con valores precisos y fijos, sin ningún tipo de aleatoriedad o incertidumbre.
+
+⦁	Una SIMULACIÓN DIGITAL es ESTACIONARIA cuando:
+Tanto el modelo como los resultados de la simulación son ajenos a todo tipo de concepción de la variable tiempo.      
+
+⦁	La simulación realizada sobre la base de modelos que incluyen solamente expresiones exactas, pertenecientes a la matemática pura, se denomina:
+Simulación analítica       
+⦁	Las VARIABLES ENDÓGENAS son:
+Las variables dependientes del sistema son generadas por la interacción de las variables independientes con las variables de estado.               
+
+⦁	¿Cómo se llaman las variables que interaccionan con las variables exógenas y con las endógenas, de acuerdo con las relaciones funcionales establecidas para el sistema?
+Variables de estado
+
+⦁	Explique las principales diferencias entre variables exógenas controlables e incontrolables.
+Las variables exógenas son aquellas que afectan al sistema, pero que no son afectadas por él. Las principales diferencias entre variables exógenas controlables e incontrolables son las siguientes:
+⦁	Variables exógenas controlables: Son aquellas variables que pueden ser manipuladas y controladas por el usuario o el modelador del sistema. 
+⦁	Variables exógenas no controlables: Son aquellas variables que afectan al sistema pero que no pueden ser manipuladas ni controladas por el usuario o el modelador del sistema. 
+
+⦁	Todas las expresiones que ligan a los objetos de interés específico del modelo con las variables y los parámetros, reciben el nombre de: 
+RELACIONES FUNCIONALES     
+
+⦁	Las identidades son relaciones funcionales que toman la forma de definiciones o declaraciones tautológicas, relativas a los componentes del modelo.
+VERDADERO     
+
+⦁	Las características de operación:
+Son constantes de las relaciones funcionales que ligan las distintas variables del modelo.
+
+⦁	En todo proceso de simulación, el paso del tiempo se registra mediante una magnitud que recibe la denominación de:
+TIEMPO DE RELOJ     
+
+
+1.    ¿Según lo abordado en clases teórico – prácticas, en relación a la forma/estructura como se ejecuta el servicio dentro de un sistema que tipo de sistemas podemos tener? Ejemplifique cada uno de ellos (1 pt)
+
+M/M/1: 1 canal, 1 fase, el patrón de arribo es Poisson y el patrón de servicio es Exponencial.
+M/M/S: Múltiples canales, 1 Fase , patrón de arribo Poisson, patrón de servicio exponencial.
+M/D/1: 1 Canal, 1 Fase, patrón de arribo es Poisson , patrón de servicio constante.
+Población constante: 1 canal, 1 fase, el patrón de arribo es Poisson y el patrón de servicio es exponencial.
